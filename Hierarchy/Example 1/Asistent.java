@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class Asistent extends Nastavnik {
 	private String smerDoktorskihStudija;
 
