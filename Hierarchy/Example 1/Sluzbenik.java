@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class Sluzbenik extends Zaposleni {
 	private String odsek;
 
