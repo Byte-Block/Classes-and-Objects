@@ -1,5 +1,3 @@
-package paketDomaci17;
-
 public class MuzickaNumera {
 	private String naziv;
 	private String izvodjac;
