@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class Profesor extends Nastavnik {
 	private String titula;
 
