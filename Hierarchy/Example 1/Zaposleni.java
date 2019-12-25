@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class Zaposleni extends Covek{
 private int godinaZaposlenja;
 private double plata;
