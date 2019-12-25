@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class Student extends Covek {
 	private int trenutnaGodinaStudija;
 	private double trenutniProsek;
