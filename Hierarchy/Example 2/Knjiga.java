@@ -1,5 +1,3 @@
-package zadatak1;
-
 public class Knjiga {
 	private String naziv;
 	private ListPapira[] straniceKnjige;
