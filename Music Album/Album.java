@@ -1,5 +1,3 @@
-package paketDomaci17;
-
 import java.util.Date;
 import java.time.LocalDate;
 import java.util.Calendar;
@@ -54,15 +52,6 @@ public class Album {
 	}
 
 	public String getTrajanje/* Albuma */() {
-		// ukupno trajanje albuma u minutima i sekundama
-		/*
-		 * String[] trajanja = new String[nizPesama.length]; String[] minutiTrajanja=
-		 * new String[trajanja.length]; for (int i = 0; i<nizPesama.length; i++) {
-		 * if(nizPesama[i]!= null) trajanja[i] = nizPesama[i].getTrajanje(); } for (int
-		 * i = 0; i<trajanja.length; i++) { trajanja[i].split(":");
-		 * 
-		 * } return null;
-		 */
 		String ukupnoTrajanjeAlbuma = "";
 		String[] minutiISekunde = new String[2];
 		int minuti = 0;
