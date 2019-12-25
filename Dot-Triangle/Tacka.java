@@ -1,5 +1,3 @@
-package paketDomaci16;
-
 public class Tacka {
 	private double x;
 	private double y;
