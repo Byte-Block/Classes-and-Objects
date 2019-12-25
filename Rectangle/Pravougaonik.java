@@ -1,5 +1,3 @@
-package paketDomaci15;
-
 public class Pravougaonik {
 	private double a;
 	private double b;
