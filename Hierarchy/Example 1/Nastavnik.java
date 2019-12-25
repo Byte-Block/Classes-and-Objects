@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class Nastavnik extends Zaposleni {
 private String omiljeniPredmet;
 private String[] listaPredmetaNaKojimaDrziNastavu;
