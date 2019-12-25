@@ -1,5 +1,3 @@
-package zadatak1;
-
 public class Polica {
 	private Knjiga[] nizKnjiga;
 	private int brojKnjiga = 0;
