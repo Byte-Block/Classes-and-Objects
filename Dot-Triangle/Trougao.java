@@ -1,5 +1,3 @@
-package paketDomaci16;
-
 public class Trougao {
 	private Tacka pocetnaTacka;
 	private double strana_a;
@@ -7,18 +5,11 @@ public class Trougao {
 	private double strana_c;
 	private double obimTrougla;
 	private double povrsinaTrougla;
-//	private boolean ispravnostTrougla;
 
 	public Trougao(Tacka pocetnaTacka, double strana_a, double strana_b, double strana_c) {
 		if (strana_a <= 0 || strana_b <= 0 || strana_c <= 0 || strana_a + strana_b <= strana_c
 				|| strana_b + strana_c <= strana_a || strana_c + strana_a <= strana_b) {
 			System.out.println("\nTrougao nije validan!");
-//			pocetnaTacka.setXY(0, 0);
-//			this.pocetnaTacka = pocetnaTacka;
-//			this.strana_a = strana_a = 0;
-//			this.strana_b = strana_b = 0;
-//			this.strana_c = strana_c = 0;
-			// ispravnostTrougla = false;
 		} else {
 			this.pocetnaTacka = pocetnaTacka;
 			this.strana_a = strana_a;
@@ -87,9 +78,6 @@ public class Trougao {
 		String ispis = "";
 		if (strana_a <= 0 || strana_b <= 0 || strana_c <= 0 || strana_a + strana_b <= strana_c
 				|| strana_b + strana_c <= strana_a || strana_c + strana_a <= strana_b) {
-//			ispis += "\nTrougao sa pocetkom u " + pocetnaTacka.ispisTacke();
-//			ispis += "\nStranice trougla: " + strana_a + " " + strana_b + " " + strana_c;
-//			ispis += "\nPovrsina i obim: P=" + getPovrsina() + " O=" + getObim();
 			ispis += "\nTrougao nije kreiran pravilno!";
 			return ispis;
 		} else {
@@ -103,5 +91,5 @@ public class Trougao {
 	public void setPocetnaTacka(Tacka pocetnaTacka) {
 		this.pocetnaTacka = pocetnaTacka;
 	}
-
+	
 }
