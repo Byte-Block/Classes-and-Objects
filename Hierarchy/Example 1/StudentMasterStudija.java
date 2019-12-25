@@ -1,5 +1,3 @@
-package paketDomaci19;
-
 public class StudentMasterStudija extends Student {
 	private String smerMasterStudija;
 
