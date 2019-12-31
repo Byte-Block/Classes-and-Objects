@@ -49,8 +49,7 @@ public class Sastojak {
 		this.jedinicaMere = jedinicaMere;
 	}
 
-	public String toString() {
-//Sastojak: brasno (kolicina: 500.0 g)	
+	public String toString() {	
 		return "Sastojak: " + getNaziv() + " (kolicina: " + getKolicina() + " " + getJedinicaMere() + ")";
 	}
 
