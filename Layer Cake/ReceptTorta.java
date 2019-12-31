@@ -14,8 +14,7 @@ public class ReceptTorta {
 		}
 	}
 
-	public String tezinaRecepta() {
-//(1 -лак,2 - �?редње лак, 3 - �?редњи, 4 - �?редње тежак, 5 - тежак)		
+	public String tezinaRecepta() {		
 		if (nivoTezineRecepta == 1)
 			return "lak";
 		else if (nivoTezineRecepta == 2)
